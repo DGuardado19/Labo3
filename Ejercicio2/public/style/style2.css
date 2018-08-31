@@ -1,0 +1,43 @@
+#white{
+    background-color: white;
+    
+    height: 100px;
+    width: 100px;
+}
+#Black{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+}
+table{
+    margin: 10px auto;
+    border: black solid;
+    border-spacing: 0px;
+}
+
+h1{
+    text-align: center;
+}
+
+
+#Black:hover{
+    background: rgba(255,0,0,0.5);
+}
+
+p:hover{
+    background: rgba(255,0,0,0.5);
+}
+div {
+    text-align: center;
+    align-content: center;
+    font-size: 0.5em;
+    width: 2em;
+    height: 2em;
+    visibility: hidden;
+    padding: 3em;
+}
+
+td:hover > div{
+    visibility: visible;
+    background: rgba(255, 0, 0, 0.5);
+}
